@@ -1,0 +1,19 @@
+templates:
+  podcast:
+    accept_all: yes
+
+tasks:
+  archive-podcast-nhk-radio-news:
+    rss: http://www.nhk.or.jp/r-news/podcast/nhkradionews.xml
+    download: ~/media/podcasts/nhk-radio-news/episodes
+    template: podcast
+
+  archive-podcast-hello-from-the-magic-tavern:
+    rss: http://feeds.soundcloud.com/users/soundcloud:users:208311266/sounds.rss
+    download: ~/media/podcasts/hello-from-the-magic-tavern/new
+    template: podcast
+
+  archive-podcast-gameradio:
+    rss: http://www.hwhq.com/rssOGG.xml
+    download: ~/media/podcasts/gameradio/episodes
+    template: podcast

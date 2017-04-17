@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+rss-link-dl.py \
+    -d "$HOME/media/webcomics/bluechair" \
+    "http://www.webtoons.com/en/comedy/bluechair/rss?title_no=199"

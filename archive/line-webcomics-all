@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+cd "$(dirname "$0")"
+line-webcomics/01-tower-of-god
+line-webcomics/02-bluechair

@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+cd "$(dirname "$0")"
+yt-archive/01-my-favourites
+yt-archive/02-my-music
+yt-archive/03-siiva
+yt-archive/04-tripleq
+yt-archive/05-gilva
+yt-archive/06-bob-ross
+yt-archive/07-hatomugi-asmr
+yt-archive/08-flimsii

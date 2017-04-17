@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+rss-link-dl.py \
+    -d "$HOME/media/webcomics/tower-of-god" \
+    "http://www.webtoons.com/en/fantasy/tower-of-god/rss?title_no=95"

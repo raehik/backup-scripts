@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+gh-mirror.py -v -o /mnt/etc/gh-mirror/raehik <api-key>

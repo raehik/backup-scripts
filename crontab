@@ -1,0 +1,4 @@
+@daily /usr/bin/flock -n /tmp/cron-flexget.lockfile /usr/bin/flexget --cron execute
+@daily /usr/bin/flock -n /tmp/cron-yt-archive-all.lockfile ~/proj/jobs/archive/yt-archive-all
+@daily ~/proj/jobs/archive/gh-mirror-all
+@daily ~/proj/jobs/archive/line-webcomics-all
